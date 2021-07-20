@@ -24,6 +24,7 @@
   "angularCompilerOptions": {
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
-    "strictTemplates": true
+    "strictTemplates": true,
+    "extends": ["tslint:recommended", "tslint-plugin-prettier", "tslint-config-prettier"]
   }
 }
